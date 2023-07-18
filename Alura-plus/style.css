@@ -1,0 +1,152 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("Assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.botao-secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container-aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container-titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container-imagem{
+    margin: 1rem 0 2rem 0;
+}
+
+.container-caixa {
+    margin: 0 3.3rem;
+}
+
+.secundario {
+    display: flex;
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.secundario_imagem {
+    width: 80%;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.2rem;
+}
+
+.descricao_texto {
+    color: var(--cinza-secundario);
+
+}
+
+.secundario-botao {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.container_descricao {
+    padding: 2rem;
+}
+
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5rem 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos_titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista_item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.lista_link a{
+    text-decoration: none;
+    color: var(--cinza-secundario);
+    margin-left: 1rem;
+}
+
+.rodape_texto {
+    margin: 1rem 0;
+    color: var(--cinza-secundario);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5rem 3rem;
+}
+
+.lista_link a:hover {
+    color: var(--botao-azul);
+}
+
+.container-botao:hover {
+    
+    color: var(--cinza-secundario)
+}
